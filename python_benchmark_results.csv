@@ -1,0 +1,10 @@
+Algorithm;Matrix Size;Execution Time (ms);Memory Used (MB);CPU Usage (%);Nodes Used;Network Overhead (ms);Data Transfer Time (ms)
+Basic (Python);500;2;4.92;10.3;1;0;0
+Parallel (Multiprocessing);500;1179;74.73;48.2;16;0;0
+Distributed (Sockets);500;279;77.38;8.2;2;83;69
+Basic (Python);1000;12;3.21;0.0;1;0;0
+Parallel (Multiprocessing);1000;1334;91.60;27.1;16;0;0
+Distributed (Sockets);1000;1088;99.43;4.0;2;326;272
+Basic (Python);2000;66;-2.63;0.9;1;0;0
+Parallel (Multiprocessing);2000;1777;142.61;16.0;16;0;0
+Distributed (Sockets);2000;4240;173.12;8.8;2;1272;1060

@@ -1,0 +1,18 @@
+Algorithm;Matrix Size;Execution Time (ms);Memory Used (MB);CPU Usage (%);Nodes Used;Network Overhead (ms);Data Transfer Time (ms)
+Basic (Sequential);50;1;1,83;0,53;1;0;0
+Parallel (Java Streams);50;4;0,53;0,53;1;0;0
+Distributed (Hazelcast);50;55;6,14;0,53;2;10;5
+Basic (Sequential);100;2;0,15;0,53;1;0;0
+Parallel (Java Streams);100;11;0,49;0,53;1;0;0
+Distributed (Hazelcast);100;34;18,28;0,53;2;8;3
+Basic (Sequential);400;64;2,24;15,04;1;0;0
+Parallel (Java Streams);400;9;2,31;15,04;1;0;0
+Distributed (Hazelcast);400;1676;1171,41;7,20;2;172;167
+Basic (Sequential);500;141;3,86;7,20;1;0;0
+Parallel (Java Streams);500;21;5,03;7,20;1;0;0
+Distributed (Hazelcast);500;2555;1485,20;7,28;2;260;255
+Basic (Sequential);600;246;7,00;7,28;1;0;0
+Parallel (Java Streams);600;33;4,52;7,28;1;0;0
+Distributed (Hazelcast);600;3014;3136,24;13,31;2;306;301
+Basic (Sequential);800;815;16,00;9,10;1;0;0
+Parallel (Java Streams);800;78;6,83;9,10;1;0;0
